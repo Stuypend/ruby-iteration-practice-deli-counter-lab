@@ -14,7 +14,7 @@ end
 
 def take_a_number(line, person)
   line.push(person)
-  puts "Welcome, #{person}. You are number #{line.find_index(person)+1} in line."
+  puts "Welcome, #{person}. You are number #{line.size} in line."
 end
 
 def now_serving(line)
